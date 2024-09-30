@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+div {
+    font-family: roboto;
+}
+.blue { color: rgb(75, 158, 162); font-family: roboto;}
+
+
+    .red { color: red; font-family: roboto; font-weight: bold;}
+    * { font-family: roboto;}
+    h1 {
+        animation: float 3000ms infinite alternate-reverse;
+    }
+
+    @keyframes float { 
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+        
+    }

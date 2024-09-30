@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../HTML Practise Assets"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css intro",
+		"liveServer.settings.port": 5501
+	}
+}
